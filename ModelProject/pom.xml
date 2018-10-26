@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-	<modelVersion>4.0.0</modelVersion>
+	<modelVersion>1.1</modelVersion>
 	<groupId>com.github.sarunkurup3</groupId>
 	<artifactId>ModelProject</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<build>
 		<pluginManagement>
@@ -82,9 +82,9 @@
 					</configuration>
 				</plugin>
 
-				<plugin> <artifactId>maven-compiler-plugin</artifactId> <version>3.1</version> 
+				<!-- <plugin> <artifactId>maven-compiler-plugin</artifactId> <version>3.1</version> 
 					<configuration> <fork>true</fork> <executable>C:\Program Files\Java\jdk1.8.0_161\bin\javac.exe</executable> 
-					</configuration> </plugin>
+					</configuration> </plugin> -->
 
 
 
