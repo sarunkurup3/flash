@@ -1,6 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.sarunkurup3</groupId>
@@ -84,9 +82,9 @@
 					</configuration>
 				</plugin>
 
-				<!-- <plugin> <artifactId>maven-compiler-plugin</artifactId> <version>3.1</version> 
+				<plugin> <artifactId>maven-compiler-plugin</artifactId> <version>3.1</version> 
 					<configuration> <fork>true</fork> <executable>C:\Program Files\Java\jdk1.8.0_161\bin\javac.exe</executable> 
-					</configuration> </plugin> -->
+					</configuration> </plugin>
 
 
 
@@ -124,7 +122,7 @@
 		<connection>scm:git:git://github.com/sarunkurup3/flash.git</connection>
 		<developerConnection>scm:git:ssh://github.com:sarunkurup3/flash.git</developerConnection>
 		<url>http://github.com/sarunkurup3/flash</url>
-		<tag>flash_1.1</tag>
+		<tag>flash</tag>
 	</scm>
 
 
