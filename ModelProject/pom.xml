@@ -1,12 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <groupId>com</groupId>
-  <artifactId>ModelProject</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-<build>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github.sarunkurup3</groupId>
+	<artifactId>ModelProject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -72,8 +72,8 @@
 						</execution>
 					</executions>
 				</plugin>
-				
-				
+
+
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.1</version>
@@ -90,9 +90,9 @@
 	</build>
 	<packaging>jar</packaging>
 
-	<name>TD_CBS Test centralized jar project</name>
+	<name>Model Project centralized jar project</name>
 	<description>Test Project for publishing jar with OSSRH platform</description>
-	<url>http://github.com/sarunkurup3/TD_CBS</url>
+	<url>https://github.com/sarunkurup3/flash</url>
 
 	<licenses>
 		<license>
@@ -116,11 +116,11 @@
 
 
 	<scm>
-		<connection>scm:git:git://github.com/sarunkurup3/TD_CBS.git</connection>
-		<developerConnection>scm:git:ssh://github.com:sarunkurup3/TD_CBS.git</developerConnection>
-		<url>http://github.com/sarunkurup3/TD_CBS</url>
-	  <tag>cbs_1.1</tag>
-  </scm>
+		<connection>scm:git:git://github.com/sarunkurup3/flash.git</connection>
+		<developerConnection>scm:git:ssh://github.com:sarunkurup3/flash.git</developerConnection>
+		<url>http://github.com/sarunkurup3/flash</url>
+		<tag>flash_1.1</tag>
+	</scm>
 
 
 	<developers>
@@ -128,7 +128,7 @@
 			<name>Arun S</name>
 			<email>sarunkurup3@gmail.com</email>
 			<organization>com.github.sarunkurup3</organization>
-			<organizationUrl>http://github.com/sarunkurup3/TD_CBS/</organizationUrl>
+			<organizationUrl>http://github.com/sarunkurup3/flash/</organizationUrl>
 		</developer>
 	</developers>
 
@@ -147,6 +147,5 @@
 			<version>6.10</version>
 		</dependency>
 	</dependencies>
-
 
 </project>
