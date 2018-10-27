@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.sarunkurup3</groupId>
 	<artifactId>ModelProject</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 
 	<build>
 		<pluginManagement>
@@ -122,7 +122,7 @@
 		<connection>scm:git:git://github.com/sarunkurup3/flash.git</connection>
 		<developerConnection>scm:git:ssh://github.com:sarunkurup3/flash.git</developerConnection>
 		<url>http://github.com/sarunkurup3/flash</url>
-		<tag>flash</tag>
+		<tag>ModelProject-0.03</tag>
 	</scm>
 
 
